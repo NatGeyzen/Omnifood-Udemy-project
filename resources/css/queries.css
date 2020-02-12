@@ -51,7 +51,37 @@
     .col {
         width: 100%;
         padding: 0 10px 10px 10px;}
-    .main-nav {display: none;}
+
+    .main-nav {display: none;} 
+    .main-nav {
+        float: left;
+        margin-top: 25px;
+        margin-left: 25px;
+    }
+    .mobile-nav-icon {display: inline-block;}
+    .main-nav li {
+        display: block;
+        font-size: 100%;
+        padding: 5px 0;
+    }
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: none;
+    }
+    .logo-black {float: left;}
+    .sticky .main-nav {
+        margin: 15px 0 10px;
+    }
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited {
+        padding: 2px;
+    }
+    .sticky .btn-mobile-nav {
+        color: rgb(14, 14, 14);
+    }
+
+
     h2 {font-size : 150%;}
     .long-copy {
         width: 90%;
@@ -71,7 +101,7 @@
     }
     .col {width: 100;}
     .footer-nav, .social-links {width: 100%;}
-    
+} 
 
 
 

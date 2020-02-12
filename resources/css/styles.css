@@ -204,6 +204,7 @@ header {
     height: 50px;
 }
 
+/* ----- MAIN NAV ----- */
 .main-nav {
     float: right;
     list-style: none;
@@ -267,8 +268,21 @@ header {
     padding: 8px 0;
 }
 
+/* ----- RESPONSIVE NAV ----- */
+.mobile-nav-icon {
+    float: right;
+    margin-top: 20px;
+    cursor: pointer;
+    display: none;   
+}
 
+.btn-mobile-nav {
+    font-size: 200%;
+    color: #fff;
+}
 
+.js--menu {display: block;}
+.js--close {display: none;}
 
 /* ------------------------------------------ */
 /* FEATURES */
